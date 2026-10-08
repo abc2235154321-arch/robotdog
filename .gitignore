@@ -1,0 +1,52 @@
+# Local Python environments and installed dependencies
+.venv*/
+venv/
+ros-numpy1/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Models, caches and generated ROS outputs
+models/
+.cache/
+*.gguf
+*.hef
+*.onnx
+*.bin
+build/
+install/
+log/
+logs/
+diagnostics/
+backups/
+bags/
+*.log
+*.db3
+*.mcap
+
+# Audio and camera captures (may contain private data)
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Editor and OS temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
